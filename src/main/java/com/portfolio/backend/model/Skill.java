@@ -33,7 +33,7 @@ public class Skill {
     private String nombre;
     private String porcentaje;
     
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToOne
     private Persona persona;
     
